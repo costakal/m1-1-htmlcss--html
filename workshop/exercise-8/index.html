@@ -1,1 +1,64 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Registration Form</h1>
+        <form>
+            <label>Username<input type="text" required></label> 
+            <label>password<input type="text" required></label>
+            <div>
+                <label>Email<input type="text" required></label>
+            </div>
+            <div>
+                Which taxi do you require?
+                <div>
+                    <label>
+                        <input type="radio" name="taxi" required/>Car
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="taxi" required/>Van
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="taxi" required/>Tuk Tuk
+                    </label>
+                </div>
+            </div>
+            <div>
+                Extras
+                <div>
+                    <label>
+                        <input type="checkbox" name="extras" />Baby Seat
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="extras" />Wheelchair Access
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="extras" />Stock Tip
+                    </label>
+                </div>
+            </div>
+            <label> Pickup
+                <select name="pickuplocation">
+                    <option> Select one </option>
+                    <option> Taxi Office</option>
+                    <option> Town Hall</option>
+                    <option> We'll Guess!</option>
+                </select>
+            </label>
+            <div>
+                Special<textarea></textarea>
+            </div>
+            <div>
+                <input type="submit"/>
+            </div>
+            </div>
+        </form>
+    </body>
+</html>
