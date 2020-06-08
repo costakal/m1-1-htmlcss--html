@@ -22,15 +22,15 @@ https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technolo
 ## Q3 - For each of the following cases, which tags will be needed?
 
 a) You want to create a webpage with the photos from your latest vacation
-<img>
+`<img>`
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
-<ul><li><a><ol>
+`<ul><li><a><ol>`
 c) You want to sell designer hats. You need to receive orders from the user.
-<form><input><textarea><checkbox><select><button>
+`<form><input><textarea><checkbox><select><button>`
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 No because that would be like putting a button within a button and so it would not really serve any functional purpose
 ## Q5 - What is the most generic tag you can use?
-<div>
+`<div>`
 ## Q6 - What do the following achronyms stand for?
 
 a) `a`
@@ -50,11 +50,11 @@ data cell
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 tr
 ## Q8 - What is the difference between td and th?
-A <th> tag is a header cell and will appear in bold as opposed to the <td> which will not appear as bold. It will also be defined as header for the data contained within the table.
+A `<th>` tag is a header cell and will appear in bold as opposed to the `<td>` which will not appear as bold. It will also be defined as header for the data contained within the table.
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 h1
 ## Q10 - In which situation can you use self closing tags?
-the <br> tag
+the `<br>` tag
 ## Q11 - What is autofilling and why is it important?
 autofill is a function that allows users to input information that they have previously input. This is important because it saves time.
 ## Q12 - Which attributes are always present in an img element?
